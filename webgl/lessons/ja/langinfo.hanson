@@ -5,8 +5,14 @@
   title: 'WebGLを基本から学ぶ',
   description: 'この記事はWebGLの基本から教える記事である。',
   link: 'https://webglfundamentals.org/',
-  commentSectionHeader: '<div>問題点/バグ? <a href="https://github.com/gfxfundamentals/webgl-fundamentals/issues">githubでissueを作成</a>.</div>',
-  missing: "ごめん！この記事はまだ翻訳されていない。[翻訳してくれますか？](https://github.com/gfxfundamentals/webgl-fundamentals)! 😄\n\n[ここに英語版がある]({{{origLink}}}).",
+  commentSectionHeader: `
+    <div>質問がありますか? <a href="https://stackoverflow.com/questions/tagged/webgl">stackoverflowで質問してみましょう</a>。</div>
+    <div>問題やバグがありますか? <a href="https://github.com/gfxfundamentals/webgl-fundamentals/issues">github上にてissueで報告してください</a>。</div>`
+    <div class="lesson-comment-notes">
+       コードブロックは <b>&lt;pre&gt;&lt;code&gt;</b>コード<b>&lt;/code&gt;&lt;/pre&gt;</b> で作成できます。
+    </div>
+  ,
+  missing: "ごめんなさい！この記事はまだ翻訳されていません。[翻訳は歓迎です！](https://github.com/gfxfundamentals/webgl-fundamentals)! 😄\n\n[この記事の英語版はこちらから]({{{origLink}}}).",
   toc: '目次',
   categoryMapping: {
     'fundamentals': "基本",
@@ -14,13 +20,18 @@
     'matrices': "2Dでの移動、回転、拡大縮小、行列計算",
     '3d': "3D",
     'lighting': "Lighting",
-    'organization': "Structure and Organization",
-    'geometry': "Geometry",
+    'organization': "Structure and Organization", // What do I translate it
+    'geometry': "ジオメトリー",
     'textures': "テクスチャ",
+    'shadows': "影",
     'rendertargets': "Rendering To A Texture",
     'techniques': "Techniques",
     '2d': "2D",
     'text': "Text",
+    'tips': "Tips",
     'misc': "その他のトピック",
+    'GPGPU': "GPGPU",
+    'reference': "リファレンス",
+    'optimization': "最適化"
   },
 }
